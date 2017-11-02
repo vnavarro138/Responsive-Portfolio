@@ -1,0 +1,432 @@
+
+/* this makes entire webpage background gray*/
+* {
+  text-align: center;
+}
+.container {
+    width: 960px;
+    background: #ffffff;
+    margin: 0 auto;
+
+}
+
+.wrapper  {
+	background-color: #dddddd;
+    height: auto;
+}
+div {
+	background-color: white;
+
+}
+
+header {
+	width: 100%;
+  position: relative;
+  margin-top: 0px;
+  border-bottom-style: solid;
+  border-bottom-color: #cccccc;
+}
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+h1 {
+	background-color: #4aaaa5;
+    float: left;
+    margin-left: 200px;
+    margin-top: 0px;
+    padding: 20px;
+    color: white;
+
+
+}
+h2 {
+	color: #4aaaa5;
+	text-align: left;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+	width: 650px;
+	margin: 0px;
+	padding: 20px;
+
+}
+
+h3 {
+		color: #4aaaa5;
+}
+
+h4 {
+	background-color: #4aaaa5;
+    color: #FFFFFF;
+    margin: 150px 0px 20px 0px;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 100;
+    position: absolute;
+    width: 240px;
+}
+.topnav {
+	background-color: white;
+	float:right;
+	margin-right: 300px;
+	padding: 20px;
+	word-spacing: 35px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+
+}
+#table {
+	background-color: #ffffff;
+	position:relative;
+  	margin:auto;
+  	width: 100%;
+}
+/*changes color of unvisited link*/
+a:link {
+	color: #777777;
+	text-decoration: none;
+}
+/*changes color of visited link*/
+a:visited {
+	color: #777777;
+	text-decoration: none;
+}
+
+body {
+    margin-top: 0px;
+    background-color:#ffffff ;
+}
+section {
+	float:left;
+	margin-left: 200px;
+    margin-top: 0px;
+    margin-right:738px;
+    padding: 20px;
+    background-color: white;
+    text-align: left;
+}
+
+.container {
+  width: 650px;
+  padding: 0px;
+  margin: 0 auto;
+  float:left;
+}
+aside {
+	float:right;
+    margin-right: 110px;
+    margin-left: 940px;
+	margin-top:20px;
+	padding: 20px;
+	background-color: white;
+	width:270px;
+	position: absolute;
+}
+#table {
+
+	width: 200px;
+	height: 100px;
+	padding: 20px;
+	border: 0px;
+}
+p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: left;
+	line-height: 180%;
+}
+img[src="assets/images/profile.jpg"] {
+ width:200px;
+ height:auto; 
+ float:left; 
+ padding-right: 20px;
+}
+/*code for contact.html*/
+form {
+	text-align: left;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	padding-top: 20px;
+}
+
+#message {
+	height: 200px;
+}
+
+input{
+	text-align: left;	
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+/*submit button styling*/
+input[type=submit] {
+    width: 20%;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+}
+ /*portfolio grid with images*/
+
+
+.grid {
+
+  display: block;
+
+}
+.grid > div {
+  margin: 40px;
+  width: 40%;
+  height: 200px;
+  float: left;
+  color: #fff;
+  text-align: center;
+  margin: 20px 20px;
+}
+img[src="assets/images/sky.jpg"] {
+  width:260px;
+  height: 200px;
+  object-fit: cover;
+}
+img[src="assets/images/jayce.jpg"] {
+  width:260px;
+  height: 200px;
+  object-fit: cover;
+}
+img[src="assets/images/kiki.jpg"] {
+  width:260px;
+  height: 200px;
+  object-fit: cover;
+}
+img[src="assets/images/disneyland.jpg"] {
+  width:260px;
+  height: 200px;
+  object-fit: cover;
+}
+img[src="assets/images/me.jpg"] {
+  width:260px;
+  height: 200px;
+  object-fit: cover;
+}
+/*end code for portfolio images*/
+
+.clear::after {
+    content: "";
+    clear: both;
+    display: table;
+    position: relative;
+ 
+}
+footer {
+	padding:20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	margin-bottom:0px;
+	width:100%;
+	background-color:#666666;
+	position:absolute;
+	border-top-style: solid;
+	border-color: #4aaaa5;
+	border-width:5px;
+
+}
+/* Width at 980px and below */
+@media screen and (max-width: 980px) {
+    body {
+        background-color: white;
+    }
+.container {
+    width: 70%;
+}
+img[src="assets/images/profile.jpg"] {
+  width:100%;
+}
+h1 {
+  margin-left: 120px;
+}
+.topnav {
+    margin: 10px 50px;
+}
+
+section{
+  margin-left: 100px;
+}
+aside {
+    margin: 100px 100px auto 625px;
+}
+.grid {
+  width:50%;
+  margin-left:50px;
+}  
+#port {
+  width:220px;
+  margin-left: 70px;
+}
+form {
+  width:70%;
+}
+  }
+/* Width at 768px and below */
+@media screen and (max-width: 768px) {
+    body {
+        background-color: white;
+    }
+.container {
+    width: 90%;
+    margin-right:20px;
+}
+.wrapper {
+    width: 768px;
+}
+.topnav {
+    padding: 20px;
+    margin: auto;
+    float: right;
+}
+section {
+  width:100%;
+  padding: 20px;
+  margin: 20px auto auto auto;
+}
+.grid {
+  width: 1000px;
+}
+aside {
+  width: 100%;
+  position: inherit;
+  margin: 0px 250px;
+}
+img[src="assets/images/profile.jpg"] {
+  width:50%;
+}
+header {
+  background-color: white;
+  float: left;
+  height:77px;
+  width:92%;
+}
+h1 {
+  margin-left:20px;
+}
+#port {
+  width:1000px;
+  margin-left: 0;
+}
+h4 {
+margin: 150px 30px 0px 71px;
+}
+form {
+  width:700px;
+}
+  }
+/* Width at 640px and below */
+@media screen and (max-width: 640px) {
+    body {
+        background-color: #eaf8f6;
+    }
+
+.wrapper  {
+  background-color: #dddddd;
+    width: 768px;
+}
+header {
+  width:100%;
+}
+
+article, h2 {
+    width:100%;
+  padding: 0 40 20 0px;
+}
+
+.topnav {
+  width: 100%;
+  padding: 20px;
+  margin-left: 0px;
+  margin-right:20px;
+  border-bottom-style: solid;
+  border-bottom-color: #cccccc;
+}
+h1 {
+    margin:0;
+    width: 100%;
+}
+h4{
+  width: 530px;
+  margin-left: -150px;
+  margin-top: 420px;
+}
+aside {
+  width: 100%;
+  margin-top: 40px;
+  margin-right:150px;
+
+}
+footer {
+  width:100%;
+  margin:auto;
+}
+.grid {
+    width: 100px;
+    margin-left: 150px;
+    }
+img[src="assets/images/sky.jpg"] {
+  width:550px;
+  height:490px;
+  margin-left: -150px;
+  object-fit: cover;
+  margin-bottom:20px;
+}
+img[src="assets/images/jayce.jpg"] {
+  width:550px;
+  height:490px;
+  margin-left: -150px;
+  object-fit: cover;
+}
+img[src="assets/images/kiki.jpg"] {
+  width:550px;
+  height:490px;
+  margin-left: -150px;
+  object-fit: cover;
+
+}
+img[src="assets/images/disneyland.jpg"] {
+  width:550px;
+  height:490px;
+  margin-left: -150px;
+  object-fit: cover;
+}
+img[src="assets/images/me.jpg"] {
+  width:550px;
+  height:490px;
+  margin-left: -150px;
+  object-fit: cover;
+}
+.grid > div {
+  margin: 40px;
+  width: 40%;
+  height: 490px;
+  float: left;
+  text-align: center;
+  margin: 20px 20px;
+}
+.box {
+  background-color:#ffffff12;
+}
+form {
+  width:600px;
+}
+  }
